@@ -34,6 +34,10 @@ module.exports = {
    * $ truffle test --network <network-name>
    */
 
+  //command that resolve the issue in etereum.js with (../.. vs ../) problem with importing json file of contract
+  
+  contracts_build_directory: './frontend/src/contracts',
+
   networks: {
     // Useful for testing. The `development` name is special - truffle uses it by default
     // if it's defined here and no other network is specified at the command line.
